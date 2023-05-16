@@ -34,7 +34,6 @@ Some tasks you should probably do in the beginning are:
     -   [ ] [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
     -   [ ] [Github Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 -   [ ] enable [Volar takeover mode](https://nuxt.com/docs/getting-started/installation#prerequisites) to ensure a smooth editor setup
--   [ ] [install Nuxt 3 devtools](https://github.com/nuxt/devtools#installation) if you want to use them
 -   [ ] Prisma: Edit your `prisma/prisma.schema` to your liking
 -   [ ] Prisma: Run `npx prisma db push` to sync the schema to your database & generate the Prisma Client
 -   [ ] Auth: Configure your auth providers to the [NuxtAuthHandler](./server/api/auth/[...].ts)
