@@ -24,7 +24,7 @@ This is a straight-forward setup with minimal templating and scaffolding. You ca
 Some tasks you should probably do in the beginning are:
 
 -   [ ] replace this generic README with a more specific one
--   [ ] install the following extensions (\*_ = important, _ = recommended):
+-   [ ] install the following extensions (\*\* = important, \* = recommended):
     -   [ ] [\*\*Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
     -   [ ] [\*\*Vue Language Features (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
     -   [ ] [\*\*Typescript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
