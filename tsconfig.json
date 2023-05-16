@@ -1,0 +1,9 @@
+{
+    "extends": "./.nuxt/tsconfig.json",
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "moduleResolution": "bundler",
+        "types": ["@pinia/nuxt", "@types/lodash", "unplugin-icons/types/vue"]
+    },
+    "exclude": ["node_modules", "img", "contracts", "assets", "public", ".husky", ".output", "locales", ".unlighthouse", ".vscode", "cdnupload", "scripts"]
+}
