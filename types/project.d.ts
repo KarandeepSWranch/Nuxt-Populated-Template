@@ -19,3 +19,8 @@ export type SeoKitConfigOptions = {
     trailingSlash: boolean;
     titleSeparator: '|' | '-' | ' ' | '·' | '»';
 };
+
+export type NuxtAuthConfigOptions = {
+    enabled: boolean;
+    originUrl: string;
+};

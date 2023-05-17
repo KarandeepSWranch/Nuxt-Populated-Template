@@ -1,6 +1,6 @@
 import { VALID_ENVIRONMENTS } from '.././app.config';
 
-export type AppEnvironment = (typeof VALID_ENVIRONMENTS)[number];
+export type AppEnvironment = typeof VALID_ENVIRONMENTS[number];
 
 declare global {
     // eslint-disable-next-line @typescript-eslint/no-namespace
@@ -11,6 +11,8 @@ declare global {
             DATABASE_URL: string;
             NUXT_PUBLIC_OVERRIDDEN_API_URL: string;
             GENERATE_SWAGGER: boolean;
+            AUTH_ORIGIN: string;
+            AUTH_SECRET: string;
         }
     }
 }

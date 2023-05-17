@@ -7,3 +7,5 @@ const { data: examples } = useFetch('/api/examples')
     Prisma ORM Data from the database, received {{ examples?.length || 0 }} records: <pre>{{ examples }}</pre>
   </div>
 </template>
+
+<style scoped></style>

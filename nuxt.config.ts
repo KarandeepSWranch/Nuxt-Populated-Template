@@ -43,6 +43,29 @@ export default defineNuxtConfig({
 
     extends: ['nuxt-seo-kit'],
 
+    alias: {
+        css: resolve(__dirname, './assets/css'),
+        stores: resolve(__dirname, './stores'),
+        types: resolve(__dirname, './types'),
+        utils: resolve(__dirname, './utils'),
+        config: resolve(__dirname, './config'),
+        packages: resolve(__dirname, './packages'),
+        contracts: resolve(__dirname, './contracts'),
+        components: resolve(__dirname, './components'),
+        composables: resolve(__dirname, './composables'),
+        environment: resolve(__dirname, 'environment.ts'),
+        'tailwind.config.js': resolve(__dirname, 'tailwind.config.js')
+    },
+
+    css: ['assets/css/main.css'],
+
+    postcss: {
+        plugins: {
+            tailwindcss: {},
+            autoprefixer: {}
+        }
+    },
+
     build: {
         transpile: ['trpc-nuxt']
     },
@@ -88,35 +111,12 @@ export default defineNuxtConfig({
         ]
     },
 
-    css: ['assets/css/main.css'],
-
-    postcss: {
-        plugins: {
-            tailwindcss: {},
-            autoprefixer: {}
-        }
-    },
-
     typescript: {
         shim: false
     },
 
     devtools: {
         enabled: true
-    },
-
-    alias: {
-        css: resolve(__dirname, './assets/css'),
-        stores: resolve(__dirname, './stores'),
-        types: resolve(__dirname, './types'),
-        utils: resolve(__dirname, './utils'),
-        config: resolve(__dirname, './config'),
-        packages: resolve(__dirname, './packages'),
-        contracts: resolve(__dirname, './contracts'),
-        components: resolve(__dirname, './components'),
-        composables: resolve(__dirname, './composables'),
-        environment: resolve(__dirname, 'environment.ts'),
-        'tailwind.config.js': resolve(__dirname, 'tailwind.config.js')
     },
 
     experimental: {

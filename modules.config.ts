@@ -4,8 +4,8 @@ export const MODULES: NuxtConfig['modules'] = [
     '@pinia/nuxt',
     'nuxt-lodash',
     '@nuxt/devtools',
-    '@sidebase/nuxt-auth',
     '@nuxtjs/tailwindcss',
+    '@sidebase/nuxt-auth',
     '@invictus.codes/nuxt-vuetify',
     '@pinia-plugin-persistedstate/nuxt',
     ['unplugin-icons/nuxt', { autoInstall: true }]
@@ -26,6 +26,6 @@ const VUETIFY_OPTIONS: NuxtConfig['vuetify'] = {
 };
 
 export const MODULE_OPTIONS: { [key: string]: Partial<ModuleOptions> } = {
-    PINIA_OPTIONS,
-    VUETIFY_OPTIONS
+    pinia: PINIA_OPTIONS,
+    vuetify: VUETIFY_OPTIONS
 };
