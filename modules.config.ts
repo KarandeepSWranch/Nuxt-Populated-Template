@@ -5,6 +5,7 @@ export const MODULES: NuxtConfig['modules'] = [
     'nuxt-lodash',
     '@vueuse/nuxt',
     '@nuxt/devtools',
+    '@nuxtjs/tailwindcss',
     '@sidebase/nuxt-auth',
     '@invictus.codes/nuxt-vuetify',
     '@pinia-plugin-persistedstate/nuxt',
