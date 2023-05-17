@@ -1,4 +1,4 @@
-# Example-App
+# Nuxt Populated Template
 
 This is a [sidebase merino](https://sidebase.io/) app implementation. This project uses the following technologies for a great developer- and user-experience:
 
