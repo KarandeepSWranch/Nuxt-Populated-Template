@@ -3,6 +3,7 @@ import { ModuleOptions, NuxtConfig } from '@nuxt/schema';
 export const MODULES: NuxtConfig['modules'] = [
     '@pinia/nuxt',
     'nuxt-lodash',
+    '@vueuse/nuxt',
     '@nuxt/devtools',
     '@nuxtjs/tailwindcss',
     '@sidebase/nuxt-auth',

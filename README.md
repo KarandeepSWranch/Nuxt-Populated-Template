@@ -16,6 +16,7 @@ This is a [sidebase merino](https://sidebase.io/) app implementation. This proje
 -   [Nuxt SEO Kit](https://github.com/harlan-zw/nuxt-seo-kit)
 -   [Unplugin Icons](https://github.com/antfu/unplugin-icons)
 -   [Zod](https://github.com/colinhacks/zod)
+-   [VueUse](https://vueuse.org/)
 
 ## How to get going?
 
