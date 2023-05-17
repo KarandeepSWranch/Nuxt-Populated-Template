@@ -20,8 +20,6 @@ const VUETIFY_OPTIONS: NuxtConfig['vuetify'] = {
     vuetifyOptions: {},
     moduleOptions: {
         treeshaking: true,
-        useIconCDN: true,
-        styles: true,
         autoImport: true
     }
 };
