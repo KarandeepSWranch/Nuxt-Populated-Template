@@ -1,8 +1,5 @@
-import Icons from 'unplugin-icons/vite';
 import inject from '@rollup/plugin-inject';
 import commonjs from '@rollup/plugin-commonjs';
-import IconsResolver from 'unplugin-icons/resolver';
-import Components from 'unplugin-vue-components/vite';
 
 import { resolve } from 'path';
 import { SEO_KIT_OPTIONS } from './seo.config';
