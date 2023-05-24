@@ -107,13 +107,7 @@ export default defineNuxtConfig({
              * @see https://stackoverflow.com/questions/75640753/vite-esbuild-error-no-loader-is-configured-for-node-files-node-modules-fs
              */
             exclude: isDevelopment && process.server && process.platform === 'darwin' ? ['fsevents'] : []
-        },
-        plugins: [
-            Components({
-                resolvers: [IconsResolver()]
-            }),
-            Icons({ autoInstall: true })
-        ]
+        }
     },
 
     typescript: {

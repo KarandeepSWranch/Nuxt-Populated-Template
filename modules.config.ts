@@ -1,6 +1,7 @@
 import { ModuleOptions, NuxtConfig } from '@nuxt/schema';
 
 export const MODULES: NuxtConfig['modules'] = [
+    'nuxt-icon',
     '@pinia/nuxt',
     'nuxt-lodash',
     '@vueuse/nuxt',
@@ -8,8 +9,7 @@ export const MODULES: NuxtConfig['modules'] = [
     '@nuxtjs/tailwindcss',
     '@sidebase/nuxt-auth',
     '@invictus.codes/nuxt-vuetify',
-    '@pinia-plugin-persistedstate/nuxt',
-    ['unplugin-icons/nuxt', { autoInstall: true }]
+    '@pinia-plugin-persistedstate/nuxt'
 ];
 
 const PINIA_OPTIONS: NuxtConfig['pinia'] = {
