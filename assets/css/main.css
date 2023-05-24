@@ -1,3 +1,60 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,
+body {
+    @apply tw-overflow-x-clip tw-scroll-smooth tw-duration-1000;
+}
+
+* {
+    /* Styling for Firefox specific scrollbars */
+    scrollbar-width: thin;
+    scrollbar-color: rgb(0 157 120) transparent;
+}
+
+*:focus {
+    @apply tw-touch-manipulation tw-outline-none tw-outline-0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+::-webkit-scrollbar {
+    @apply tw-w-2;
+}
+
+body::-webkit-scrollbar-track {
+    @apply tw-rounded-none;
+}
+
+::-webkit-scrollbar-track {
+    @apply tw-rounded-full tw-shadow-inner;
+    background-color: rgb(24, 26, 31);
+}
+
+::-webkit-scrollbar-thumb {
+    @apply tw-rounded-full;
+    background-color: rgba(0, 157, 120, 0.25);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    @apply tw-m-0 tw-appearance-none;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+.page-enter-from {
+    @apply -tw-translate-y-3 tw-opacity-0;
+}
+
+.page-enter-active {
+    @apply tw-duration-500;
+}
+
+.page-leave-active {
+    @apply tw-duration-200;
+}
+
+.page-leave-to {
+    @apply tw-opacity-0;
+}

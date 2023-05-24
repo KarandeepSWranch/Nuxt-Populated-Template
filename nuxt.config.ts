@@ -54,10 +54,15 @@ export default defineNuxtConfig({
         components: resolve(__dirname, './components'),
         composables: resolve(__dirname, './composables'),
         environment: resolve(__dirname, 'environment.ts'),
+        'app.config': resolve(__dirname, 'app.config.js'),
         'tailwind.config.js': resolve(__dirname, 'tailwind.config.js')
     },
 
-    css: ['assets/css/main.css'],
+    app: {
+        pageTransition: { name: 'page', mode: 'out-in' }
+    },
+
+    css: ['assets/css/main.css', 'assets/css/tailwind.css'],
 
     postcss: {
         plugins: {

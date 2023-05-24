@@ -1,0 +1,1 @@
+export type SocialIcon = 'facebook' | 'instagram' | 'linkedin' | 'twitter';

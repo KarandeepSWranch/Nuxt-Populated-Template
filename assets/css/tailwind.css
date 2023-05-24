@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    *[debug-border],
+    *.\? {
+        @apply tw-border-2 tw-border-red-500;
+    }
+
+    *[debug-bg],
+    *.\?\? {
+        @apply tw-bg-purple-600;
+    }
+}

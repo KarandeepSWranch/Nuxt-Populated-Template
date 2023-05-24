@@ -20,7 +20,7 @@ const VUETIFY_OPTIONS: NuxtConfig['vuetify'] = {
     vuetifyOptions: {},
     moduleOptions: {
         treeshaking: true,
-        styles: 'none',
+        styles: true,
         autoImport: true
     }
 };
